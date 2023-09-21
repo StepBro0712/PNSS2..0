@@ -1,0 +1,29 @@
+{
+    "name": "StepBro0712/PNSS2.0",
+    "description": "lf",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "StepBro0712",
+            "email": "mailstepbro@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.1",
+        "illuminate/database": "10.x-dev",
+        "illuminate/events": "10.x-dev",
+        "nikic/fast-route": "^2.0@dev",
+        "codeguy/upload": "dev-master",
+        "illuminate/http": "10.x-dev",
+        "snezhana-star/demo-collect": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+
+}
