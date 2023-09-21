@@ -1,6 +1,6 @@
 <?php
 
-namespace Controller;
+namespace app\Controller;
 
 use Src\Auth\Auth;
 use Src\Request;

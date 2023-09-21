@@ -1,6 +1,6 @@
 <?php
 
-namespace Controller;
+namespace app\Controller;
 
 use Model\Document;
 use Src\Request;

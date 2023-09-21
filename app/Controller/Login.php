@@ -1,10 +1,10 @@
 <?php
-namespace Controller;
+namespace app\Controller;
 
 
+use Src\Auth\Auth;
 use Src\Request;
 use Src\View;
-use Src\Auth\Auth;
 
 
 class Login{

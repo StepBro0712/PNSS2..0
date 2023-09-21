@@ -1,15 +1,14 @@
 <?php
 
-namespace Controller;
+namespace app\Controller;
 
 use Model\Discipline;
 use Model\Document;
-use Src\Request;
-
 use Model\Subdivision;
-use Src\View;
 use Model\User;
+use Src\Request;
 use Src\Validator\Validator;
+use Src\View;
 
 class CreateDoc
 {

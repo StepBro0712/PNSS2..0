@@ -1,6 +1,6 @@
 <?php
 
-namespace Controller;
+namespace app\Controller;
 
 use Model\Post;
 use Src\Request;

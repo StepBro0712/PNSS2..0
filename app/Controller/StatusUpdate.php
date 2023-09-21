@@ -1,10 +1,10 @@
 <?php
-namespace Controller;
+namespace app\Controller;
 
 use Model\Document;
 use Src\Request;
-use Src\View;
 use Src\Validator\Validator;
+use Src\View;
 
 class StatusUpdate{
     public function statusUpdate(Request $request): string

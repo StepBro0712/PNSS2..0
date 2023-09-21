@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: Manrope-Bold;
+    src: url(../fonts/Manrope-Bold.woff);
+}
+@font-face{
+    font-family: Manrope-Regular;
+    src: url(../fonts/Manrope-Regular.woff);
+}
+@font-face{
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-Bold.woff);
+}
+@font-face{
+    font-family: OpenSans-Regular;
+    src: url(../fonts/OpenSans-Regular.woff);
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0 auto;
+    height: 150px;
+    align-items: center;
+}
+
+.Logo{
+    font-family: Manrope-Bold;
+    color: #0A2640;
+    font-size: 43px;
+
+}
+.Logo>a{
+    text-decoration: none;
+    color: #0A2640;
+}
+.navi{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.navi>a>p{
+
+    font-family: OpenSans-Bold;
+    font-size: 16pt;
+    height: 40px;
+    display: flex;
+    color: #0A2640;
+    justify-content: center;
+    align-items: center;
+    border: #0A2640 2px solid;
+    border-radius: 24px;
+    padding: 0px 20px;
+}
+.navi>a{
+    text-decoration: none;
+    font-family: OpenSans-Bold;
+    font-size: 16pt;
+    color: #0A2640;
+}
+.Info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.Info>div{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    width: 500px;
+}
+.Info>div>p:first-child{
+    font-size: 48px;
+    font-family:Manrope-Regular ;
+}
+
+.cn{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    font-family:OpenSans-Regular ;
+}
+.btm{
+    text-decoration: none;
+    color: white;
+    background: #0A2640;
+    width: 170px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 56px;
+
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+    justify-content: center;
+}
+.btm1{
+    text-decoration: none;
+    color: white;
+    background: #0A2640;
+    width: 350px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 56px;
+
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+    justify-content: center;
+}
+.Info>img{
+    width: 500px;
+    height: 450px;
+    border-radius: 24px;
+}
+.login{
+    border-radius: 24px;
+    background: #3B5166;
+    display: flex;
+    flex-direction: column;
+    height: 460px;
+    width: 620px;
+    align-items: flex-start;
+    align-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.error{
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+    justify-content: center;
+    color: red;
+    margin: 0px 0px -30px 70px;
+}
+.login>label, .sign>label, .update>label{
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+    justify-content: center;
+    color: white;
+    margin: 0px 0px -30px 70px;
+    padding: 30px 0px;
+}
+.login>input, .sign>input, .update>input{
+    width: 530px;
+    height: 60px;
+    border-radius: 24px;
+    margin-left: 40px;
+    font-size: 16pt;
+    padding-left: 20px;
+    font-family: OpenSans-Bold;
+    color: #0A2640;
+
+
+}
+.login>button, .sign>button,.update>button {
+    width: 170px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 56px;
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+    border: #0A2640 2px solid;
+    justify-content: center;
+    margin-left: 40px;
+    padding: 30px 0px;
+    margin-top: 50px;
+}
+.sign{
+    border-radius: 24px;
+    background: #3B5166;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+    width: 620px;
+    align-items: flex-start;
+    align-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom:100px ;
+}
+.sign>select, .update>select{
+    margin-left: 45px;
+    height: 60px;
+    width: 550px;
+    border-radius: 24px;
+    font-size: 16pt;
+    font-family: OpenSans-Bold;
+    color: #0A2640;
+    padding-left: 20px;
+
+}
+.doc>p{
+    margin-top: 100px;
+    font-size: 48px;
+    font-family: Manrope-Regular;
+
+}
+.doc>div{
+    margin-top: 30px;
+}
+.doc>div>a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 16pt;
+    font-family: OpenSans-Bold;
+    color: #0A2640;
+
+}
+.list{
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+.list>ol>a{
+    text-decoration: none;
+
+}
+.list>ol>a>li{
+    margin-bottom: 20px;
+    font-size: 14pt;
+    font-family: Manrope-Regular;
+    color: #0A2640;
+}
+.stat{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: OpenSans-Regular;
+}
+.textdoc{
+    margin-top: 50px;
+    background: #F1F1F1;
+    margin-bottom: 100px;
+    border-radius: 24px;
+}
+.textdoc>p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: OpenSans-Regular;
+    padding: 30px;
+}
+.search>a, .search>label{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 16pt;
+    font-family: OpenSans-Bold;
+    color: #0A2640;
+}
+.search>button{
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+    border: #0A2640 2px solid;
+    border-radius: 24px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.ttt{
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 100px;
+
+}
+.ttt>p{
+
+    font-size: 48px;
+    font-family: Manrope-Regular;
+}
+.ttt>a{
+    text-decoration: none;
+    color: white;
+    background: #0A2640;
+    display: flex;
+    align-items: center;
+    border-radius: 56px;
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+    justify-content: center;
+    padding:20px 20px;
+}
+.update{
+    border-radius: 24px;
+    background: #3B5166;
+    display: flex;
+    flex-direction: column;
+    height: 460px;
+    width: 620px;
+    align-items: flex-start;
+    align-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.textdocument{
+    width: 530px;
+    height: 500px;
+    border-radius: 24px;
+    margin-left: 40px;
+    font-size: 16pt;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: OpenSans-Bold;
+    color: #0A2640;
+    resize: none;
+
+}
